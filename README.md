@@ -6,7 +6,7 @@ This is the project for Mitron Bank.
 
 About the project
 
-* Mitron Bank is a legacy finincial instution headquartered in Hyderabad.
+* Mitron Bank is a legacy finincial institution headquartered in Hyderabad.
   
 * Bank Wants to introduce a new line of credit cards, aiming to broden their
   product offering and reach in finincial market.
