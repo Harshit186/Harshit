@@ -21,7 +21,7 @@ Other source provided
 * Survey questions
 
 Tools Used
-*  MSSQL - For Quaries
+*  MSSQL - For Quarries
 
 *  Power BI - For Visualization
 
