@@ -1,4 +1,4 @@
---Spending Based On Categories
+--What is the average spending by Categories?
 create view Total_spending_on_categories as 
 select 
 	category,
@@ -11,7 +11,7 @@ order by
 	total_spend desc
 
 
---which occupation spends the most
+--which occupation spends the most?
 create view Spending_nature_by_occupation as 
 select 
 	c.occupation,
@@ -24,7 +24,7 @@ group by
 order by 
 	Total_spends desc
 
---which category customers spends the most by occupation
+--which category customers spends the most by occupation?
 create view Primary_spending_Categories_by_occupation as 
 select 
 	c.occupation,
@@ -40,7 +40,7 @@ order by
 	Total_spends desc
 
 
---Average Income Utilisation of Customers
+--What is the average Income Utilisation of Customers?
 create view Avg_income_utilization as 
 with cte as (
 select 
@@ -61,7 +61,7 @@ group by
 	from cte
 
 
---Most Spending Age Group 
+--Who is the Most Spending Age Group?
 create view most_spending_age_group as
 select 
 	c.age_group,
@@ -76,7 +76,7 @@ order by
 
 
 
---Prefered Mode Of Payment of most spending age group
+--What is the prefered Mode Of Payment of most spending age group?
 create view Prefered_Mode_Of_Payment_of_most_spending_age_group as 
 select 
 	f.payment_type,
