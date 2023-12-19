@@ -28,6 +28,8 @@ Tools Used
 
 *  Power BI - For Visualization
 
-*  Chat GPT 
+*  Chat GPT
+
+*  Canva 
   
 
